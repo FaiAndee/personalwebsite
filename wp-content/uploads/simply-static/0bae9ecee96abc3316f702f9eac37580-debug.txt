@@ -1,0 +1,798 @@
+[2025-02-02 08:28:26] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-02-02 08:28:26] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-02-02 08:28:26] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-02-02 08:28:29] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-02-02 08:28:29] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-02-02 08:28:29] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-02-02 08:28:30] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906\
+[2025-02-02 08:28:30] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/fai_wordpress/
+[2025-02-02 08:28:30] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://localhost/fai_wordpress/index.php/sitemap.xml
+[2025-02-02 08:28:30] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://localhost/fai_wordpress/index.php/sitemap_index.xml
+[2025-02-02 08:28:30] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-02-02 08:28:30] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-02 08:28:30] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-02 08:28:30] [class-ss-fetch-urls-task.php:69] Total pages: 3; Pages remaining: 3
+[2025-02-02 08:28:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/
+[2025-02-02 08:28:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 3
+[2025-02-02 08:28:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cae1fd59-zloyJ9.tmp
+[2025-02-02 08:28:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/?simply_static_page=311
+[2025-02-02 08:28:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/?simply_static_page=311
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:103] Filesize: 40459 bytes
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cae1fd59-zloyJ9.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/index.html
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:158] Adding 41 URLs to the queue
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:32] [class-ss-page.php:119] Checking Content Identical:40bd53878515900b7cb38c3e81bca29f221d4376===. Value: FALSE
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/sitemap.xml
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 3
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/sitemap.xml
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/sitemap_index.xml
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 3
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/sitemap_index.xml
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 3 pages/files
+[2025-02-02 08:28:32] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-02 08:28:32] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-02 08:28:32] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:69] Total pages: 43; Pages remaining: 40
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/home/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/home/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/about/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/about/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/resume/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/resume/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/portfolio/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/portfolio/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/blog/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/blog/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/contact/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/contact/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/category/http-localhost-fai_wordpress-index-php-portfolio/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/category/http-localhost-fai_wordpress-index-php-portfolio/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/2025/02/01/emagazine-adobe/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/2025/02/01/emagazine-adobe/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/2025/02/01/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/2025/02/01/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/2025/02/01/travc-travel-tracking-charity-club-uitm-segamat/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/2025/02/01/travc-travel-tracking-charity-club-uitm-segamat/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/2025/02/01/ent300-online-business/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/2025/02/01/ent300-online-business/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/2025/01/29/group-project-icm451/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/2025/01/29/group-project-icm451/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/2025/01/29/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/2025/01/29/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/2025/01/29/group-project-icm550/
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/2025/01/29/group-project-icm550/
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/uploads/2025/01/fai-logo.png
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb0af267-mlEOFM.tmp
+[2025-02-02 08:28:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/uploads/2025/01/fai-logo.png?simply_static_page=328
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/uploads/2025/01/fai-logo.png?simply_static_page=328
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:103] Filesize: 2301 bytes
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/fai-logo.png
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb0af267-mlEOFM.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/uploads/2025/01/fai-logo.png
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:32] [class-ss-page.php:119] Checking Content Identical:56822eb4420b3ce11ed1c1e214e93006d7f51cad===. Value: FALSE
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/uploads/2025/02/IMG-20230216-WA0041.jpg
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb0b6e58-PoXDpS.tmp
+[2025-02-02 08:28:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/uploads/2025/02/IMG-20230216-WA0041.jpg?simply_static_page=329
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/uploads/2025/02/IMG-20230216-WA0041.jpg?simply_static_page=329
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:103] Filesize: 123058 bytes
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/IMG-20230216-WA0041.jpg
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb0b6e58-PoXDpS.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/uploads/2025/02/IMG-20230216-WA0041.jpg
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:32] [class-ss-page.php:119] Checking Content Identical:feab2d2f361c967effdecdd75590de6dbc5bda72===. Value: FALSE
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-includes/js/jquery/jquery.min.js
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb0bf62c-AvD98S.tmp
+[2025-02-02 08:28:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-includes/js/jquery/jquery.min.js?simply_static_page=330
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-includes/js/jquery/jquery.min.js?simply_static_page=330
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb0bf62c-AvD98S.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-includes/js/jquery/jquery.min.js
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:32] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb0da218-h76pqo.tmp
+[2025-02-02 08:28:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=331
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=331
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb0da218-h76pqo.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:32] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/js/bootstrap.bundle.min.js
+[2025-02-02 08:28:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 43
+[2025-02-02 08:28:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb0f1f6d-UxxZhu.tmp
+[2025-02-02 08:28:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/js/bootstrap.bundle.min.js?simply_static_page=332
+[2025-02-02 08:28:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/js/bootstrap.bundle.min.js?simply_static_page=332
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 78749 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/js/bootstrap.bundle.min.js
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb0f1f6d-UxxZhu.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/js/bootstrap.bundle.min.js
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:6584cd9d44d7a886ab89378a34d3ba8e46577124===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/js/owl.carousel.min.js
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb10a688-QxGLLk.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/js/owl.carousel.min.js?simply_static_page=333
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/js/owl.carousel.min.js?simply_static_page=333
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 44342 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/js/owl.carousel.min.js
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb10a688-QxGLLk.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/js/owl.carousel.min.js
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:e2a600e433df72b4cfde93d7880e3114917a3cbe===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/js/wow.min.js
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb11a092-JXziBv.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/js/wow.min.js?simply_static_page=334
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/js/wow.min.js?simply_static_page=334
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 8176 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/js/wow.min.js
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb11a092-JXziBv.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/js/wow.min.js
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:ccd36d295d251676b32d2c5a3e05dda5fd469fd7===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogair/js/custom.js
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb125d13-j9W1jq.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogair/js/custom.js?simply_static_page=335
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogair/js/custom.js?simply_static_page=335
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 10928 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogair/js/custom.js
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb125d13-j9W1jq.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogair/js/custom.js
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:5495e1817023f9d40921e08fd6efb28300a7dab1===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/feed/
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/feed/
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/comments/feed/
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/comments/feed/
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-includes/css/dist/block-library/style.min.css
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb12f929-u8gCuT.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-includes/css/dist/block-library/style.min.css?simply_static_page=338
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-includes/css/dist/block-library/style.min.css?simply_static_page=338
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb12f929-u8gCuT.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-includes/css/dist/block-library/style.min.css
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap.min.css
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb141554-aogXRp.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap.min.css?simply_static_page=339
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap.min.css?simply_static_page=339
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 144828 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/css/bootstrap.min.css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb141554-aogXRp.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/css/bootstrap.min.css
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:f37488c1749f09b629be25d8c836aca194305cff===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/animate.min.css
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb1518bf-2GCouO.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/animate.min.css?simply_static_page=340
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/animate.min.css?simply_static_page=340
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 56858 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/css/animate.min.css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb1518bf-2GCouO.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/css/animate.min.css
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:93f7cf6ef9bb531e4971aeb62fda70dbdb8e82cb===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/main.css
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb1642e5-45GRsO.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/main.css?simply_static_page=341
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/main.css?simply_static_page=341
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 64749 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/css/main.css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb1642e5-45GRsO.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/css/main.css
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:d38a40f5391e367b8297613599b72b1de5ef7a4b===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/responsive.css
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb172165-gFx75H.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/responsive.css?simply_static_page=342
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/responsive.css?simply_static_page=342
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 11584 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/css/responsive.css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb172165-gFx75H.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/css/responsive.css
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:acd506642e6aa268876b5c62aa87a89c92dfd6c1===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/widget.css
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb1822a7-sIjz7e.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/widget.css?simply_static_page=343
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/widget.css?simply_static_page=343
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 14365 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/css/widget.css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb1822a7-sIjz7e.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/css/widget.css
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:af8f4fbe6ac6cf4f0fa01112dcad0c826e574aa3===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/animation.css
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb191e9f-vhX3mm.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/animation.css?simply_static_page=344
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/animation.css?simply_static_page=344
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 132 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/css/animation.css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb191e9f-vhX3mm.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/css/animation.css
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:2982beafbdb8de473b8e0e2a41449058e82358d7===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/owl.carousel.min.css
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb19ab30-Mr9FRP.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/owl.carousel.min.css?simply_static_page=345
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/owl.carousel.min.css?simply_static_page=345
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 8288 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/css/owl.carousel.min.css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb19ab30-Mr9FRP.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/css/owl.carousel.min.css
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 1 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:e3bc8f9e27232ec2784496f7a94f5e134d924bc7===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/all.min.css
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb1aa5aa-XILCnS.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/all.min.css?simply_static_page=346
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/all.min.css?simply_static_page=346
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 58935 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/css/all.min.css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb1aa5aa-XILCnS.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/css/all.min.css
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 15 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:dee24a64ec87b30280703dc1668ed0336a0b6321===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap-icons/font/bootstrap-icons.css
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb1c5ecb-1FcPjw.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap-icons/font/bootstrap-icons.css?simply_static_page=347
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap-icons/font/bootstrap-icons.css?simply_static_page=347
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 93734 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/css/bootstrap-icons/font/bootstrap-icons.css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb1c5ecb-1FcPjw.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/css/bootstrap-icons/font/bootstrap-icons.css
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:fc20bb7333dc453d2ba51fc1c6eb373d4a67933b===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogair/style.css
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb1d6d05-lMImX6.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogair/style.css?simply_static_page=348
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogair/style.css?simply_static_page=348
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:103] Filesize: 25629 bytes
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogair/style.css
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb1d6d05-lMImX6.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogair/style.css
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:158] Adding 1 URLs to the queue
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:33] [class-ss-page.php:119] Checking Content Identical:5259518c99dbd4e6c3f8f9380811d51675f4563f===. Value: FALSE
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/index.php/wp-json/
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/index.php/wp-json/
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/xmlrpc.php
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fai_wordpress/xmlrpc.php
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/uploads/2025/01/amar-syazwan-rosman-B13jER_V76Q-unsplash.jpg
+[2025-02-02 08:28:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 43
+[2025-02-02 08:28:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb1eac61-ZMm2FN.tmp
+[2025-02-02 08:28:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/uploads/2025/01/amar-syazwan-rosman-B13jER_V76Q-unsplash.jpg?simply_static_page=351
+[2025-02-02 08:28:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/uploads/2025/01/amar-syazwan-rosman-B13jER_V76Q-unsplash.jpg?simply_static_page=351
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:103] Filesize: 2158306 bytes
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/amar-syazwan-rosman-B13jER_V76Q-unsplash.jpg
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb1eac61-ZMm2FN.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/uploads/2025/01/amar-syazwan-rosman-B13jER_V76Q-unsplash.jpg
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:34] [class-ss-page.php:119] Checking Content Identical:0498484c6aa4af1da53f096cf8d9d401e46b35d8===. Value: FALSE
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/plugins/britetechs-companion/inc/blogone/img/footer-bg.png
+[2025-02-02 08:28:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 43
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb2076c6-IWJbtn.tmp
+[2025-02-02 08:28:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/plugins/britetechs-companion/inc/blogone/img/footer-bg.png?simply_static_page=352
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/plugins/britetechs-companion/inc/blogone/img/footer-bg.png?simply_static_page=352
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:103] Filesize: 169811 bytes
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/britetechs-companion/inc/blogone/img/footer-bg.png
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb2076c6-IWJbtn.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/plugins/britetechs-companion/inc/blogone/img/footer-bg.png
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:34] [class-ss-page.php:119] Checking Content Identical:a912ddc635c09212e71c53a7fe9b88c886027c3b===. Value: FALSE
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/uploads/2025/01/flowery.jpg
+[2025-02-02 08:28:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 43
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb20d9a5-GXyQTU.tmp
+[2025-02-02 08:28:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/uploads/2025/01/flowery.jpg?simply_static_page=353
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/uploads/2025/01/flowery.jpg?simply_static_page=353
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:103] Filesize: 1239114 bytes
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/01/flowery.jpg
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb20d9a5-GXyQTU.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/uploads/2025/01/flowery.jpg
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:34] [class-ss-page.php:119] Checking Content Identical:31524aea712fd1262bf4934010be1d027efa811b===. Value: FALSE
+[2025-02-02 08:28:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 3 of 43 pages/files
+[2025-02-02 08:28:34] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-02 08:28:34] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-02 08:28:34] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:69] Total pages: 62; Pages remaining: 19
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/owl.video.play.png
+[2025-02-02 08:28:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 62
+[2025-02-02 08:28:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb219e2a-hnHqMz.tmp
+[2025-02-02 08:28:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/owl.video.play.png?simply_static_page=354
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/owl.video.play.png?simply_static_page=354
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:103] Filesize: 29293 bytes
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-02-02 08:28:34] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-02-02 08:28:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb310aa6-QKhhlb.tmp
+[2025-02-02 08:28:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/owl.video.play.png
+[2025-02-02 08:28:35] [class-ss-url-fetcher.php:103] Filesize: 29293 bytes
+[2025-02-02 08:28:35] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-02-02 08:28:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.eot
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb404d64-9ohBWi.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.eot?simply_static_page=355
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.eot?simply_static_page=355
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 134622 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-brands-400.eot
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb404d64-9ohBWi.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-brands-400.eot
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:40c8f2a0dc154160fde50e0c27f694f12c7b1636===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.woff2
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb40b435-F6HY7q.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.woff2?simply_static_page=356
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.woff2?simply_static_page=356
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 77400 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-brands-400.woff2
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb40b435-F6HY7q.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-brands-400.woff2
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:62584b9868428fd75af3fc5ee2f9918dda428be5===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.woff
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb41371a-YneQQp.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.woff?simply_static_page=357
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.woff?simply_static_page=357
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 90672 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-brands-400.woff
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb41371a-YneQQp.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-brands-400.woff
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:fddb95d7a0f48d2bf90a5ee3095e8264dca18053===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.ttf
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb41b970-frnkDP.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.ttf?simply_static_page=358
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.ttf?simply_static_page=358
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 134316 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-brands-400.ttf
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb41b970-frnkDP.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-brands-400.ttf
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:29f59b4eecc72052d9110a5d4030a10ad9bf73d7===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.svg
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb423f51-vikez1.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.svg?simply_static_page=359
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-brands-400.svg?simply_static_page=359
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 730302 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-brands-400.svg
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb423f51-vikez1.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-brands-400.svg
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:d96c3f47dbf3402a703ead96559999bb42f183b5===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.eot
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb446b2c-uMb6WF.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.eot?simply_static_page=360
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.eot?simply_static_page=360
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 34350 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-regular-400.eot
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb446b2c-uMb6WF.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-regular-400.eot
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:3306178c90d9df939d2a5eabf533ba3650fbe80e===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.woff2
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb44c73a-Qzwgk3.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.woff2?simply_static_page=361
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.woff2?simply_static_page=361
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 13600 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-regular-400.woff2
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb44c73a-Qzwgk3.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-regular-400.woff2
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:5e4d45052f43e55aaad7f14d13280215e39aa45b===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.woff
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb4553fb-ECdFD5.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.woff?simply_static_page=362
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.woff?simply_static_page=362
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 16780 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-regular-400.woff
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb4553fb-ECdFD5.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-regular-400.woff
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:da17a9f1dcae379c8ba20f1089059c202216cba7===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.ttf
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb45a7e4-GwajNZ.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.ttf?simply_static_page=363
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.ttf?simply_static_page=363
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 34052 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-regular-400.ttf
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb45a7e4-GwajNZ.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-regular-400.ttf
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:517a3b41c1e01b65898b5f1074434d43a361a54f===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.svg
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb460fdb-5igpYS.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.svg?simply_static_page=364
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-regular-400.svg?simply_static_page=364
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 144715 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-regular-400.svg
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb460fdb-5igpYS.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-regular-400.svg
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:9c709e67f0a8f51bc5ce3bb279abef15dbc03246===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.eot
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb47481c-rRYOkA.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.eot?simply_static_page=365
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.eot?simply_static_page=365
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 204266 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-solid-900.eot
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb47481c-rRYOkA.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-solid-900.eot
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:96a5637429426764ea9b28bf4d1eb55ae10de57e===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.woff2
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb47ae47-R6Z8TI.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.woff2?simply_static_page=366
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.woff2?simply_static_page=366
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 80148 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-solid-900.woff2
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb47ae47-R6Z8TI.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-solid-900.woff2
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:6290834672aba86d5b6c1c73b30b57c9c53996f7===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.woff
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb4818e6-glE39D.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.woff?simply_static_page=367
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.woff?simply_static_page=367
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 104004 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-solid-900.woff
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb4818e6-glE39D.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-solid-900.woff
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:f13e252f8a51a5279fd21e26ada0bd2f55bcefd8===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.ttf
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb48799f-JE2TOq.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.ttf?simply_static_page=368
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.ttf?simply_static_page=368
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 203980 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-solid-900.ttf
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb48799f-JE2TOq.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-solid-900.ttf
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:874c650701d0cbfb8f1de48a496dabed3bbf22e6===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.svg
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb48e462-zb7Jx8.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.svg?simply_static_page=369
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/webfonts/fa-solid-900.svg?simply_static_page=369
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 914125 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/webfonts/fa-solid-900.svg
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb48e462-zb7Jx8.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/webfonts/fa-solid-900.svg
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:69e2a044f02cbc081efa7fc285c95d249d5147d4===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap-icons/font/fonts/bootstrap-icons.woff2
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb4b77ae-924Gf2.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap-icons/font/fonts/bootstrap-icons.woff2?simply_static_page=370
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap-icons/font/fonts/bootstrap-icons.woff2?simply_static_page=370
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 121340 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/css/bootstrap-icons/font/fonts/bootstrap-icons.woff2
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb4b77ae-924Gf2.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/css/bootstrap-icons/font/fonts/bootstrap-icons.woff2
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:4c0efcf1dccc7295efc26fabe81ffe8f28d594a3===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap-icons/font/fonts/bootstrap-icons.woff
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb4bfc6c-bDVsHq.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap-icons/font/fonts/bootstrap-icons.woff?simply_static_page=371
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogone/css/bootstrap-icons/font/fonts/bootstrap-icons.woff?simply_static_page=371
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 164360 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogone/css/bootstrap-icons/font/fonts/bootstrap-icons.woff
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb4bfc6c-bDVsHq.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogone/css/bootstrap-icons/font/fonts/bootstrap-icons.woff
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:d598cc620458b22d80443cdd69100217316efaf3===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fai_wordpress/wp-content/themes/blogair/img/background-decoration.png
+[2025-02-02 08:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 62
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/679f2cb4c6620-eGwWk4.tmp
+[2025-02-02 08:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fai_wordpress/wp-content/themes/blogair/img/background-decoration.png?simply_static_page=372
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fai_wordpress/wp-content/themes/blogair/img/background-decoration.png?simply_static_page=372
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:103] Filesize: 12216 bytes
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/blogair/img/background-decoration.png
+[2025-02-02 08:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/679f2cb4c6620-eGwWk4.tmp to C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906/wp-content/themes/blogair/img/background-decoration.png
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-02 08:28:36] [class-ss-page.php:119] Checking Content Identical:f172d9bda1fe474540fa819cc1cd86f3e113db95===. Value: FALSE
+[2025-02-02 08:28:36] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 43 of 62 pages/files
+[2025-02-02 08:28:36] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-02 08:28:36] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-02 08:28:36] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-02 08:28:36] [class-ss-fetch-urls-task.php:69] Total pages: 62; Pages remaining: 0
+[2025-02-02 08:28:36] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 62 of 62 pages/files
+[2025-02-02 08:28:36] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-02-02 08:28:36] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-02-02 08:28:36] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-02-02 08:28:36] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/uploads/2025/01
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/uploads/2025/01
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/uploads/2025/02
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/uploads/2025/02
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-includes/js/jquery
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-includes/js/jquery
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-includes/js/jquery
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-includes/js/jquery
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/js
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/js
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/js
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/js
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/js
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/js
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogair/js
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogair/js
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-includes/css/dist/block-library
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-includes/css/dist/block-library
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css/bootstrap-icons/font
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css/bootstrap-icons/font
+[2025-02-02 08:28:36] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogair
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogair
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/uploads/2025/01
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/uploads/2025/01
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/plugins/britetechs-companion/inc/blogone/img
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/plugins/britetechs-companion/inc/blogone/img
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/uploads/2025/01
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/uploads/2025/01
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/webfonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css/bootstrap-icons/font/fonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css/bootstrap-icons/font/fonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css/bootstrap-icons/font/fonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogone/css/bootstrap-icons/font/fonts
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogair/img
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/portfolio-fai/wp-content/themes/blogair/img
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:41. Processed Pages: 41
+[2025-02-02 08:28:37] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 41 of 41 files
+[2025-02-02 08:28:37] [trait-can-process-pages.php:112] Total pages: 41; Pages remaining: 0
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:198] Transferring 404 Page
+[2025-02-02 08:28:37] [class-ss-transfer-files-locally-task.php:201] No 404 Page found at C:\xampp\htdocs\fai_wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1738484906\404\index.html
+[2025-02-02 08:28:37] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://faiandee.github.io/portfolio-fai/" target="_blank">https://faiandee.github.io/portfolio-fai/</a>
+[2025-02-02 08:28:37] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-02-02 08:28:37] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-02-02 08:28:37] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-02-02 08:28:37] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-02-02 08:28:37] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-02-02 08:28:37] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-02-02 08:28:37] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-02-02 08:28:37] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:11
