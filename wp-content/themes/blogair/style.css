@@ -606,7 +606,7 @@ Text Domain: blogair
 
 .blogair-theme .body-decorations:after, .blogair-theme .body-decorations:before {
   content: '';
-  background: url(./img/background-decoration.png) 1% 100px no-repeat;
+  background: url(https://faiandee.github.io/personalwebsite/wp-content/themes/blogair/img/background-decoration.png) 1% 100px no-repeat;
   width: 100%;
   height: 100vh;
   position: absolute;
